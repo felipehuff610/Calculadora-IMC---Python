@@ -4,7 +4,7 @@ dpg.create_context()
 dpg.create_viewport(title='Calculadora IMC', width=450, height=800)
 
 # 1. Carregar a imagem na memória com o load_image
-img_path = "IniciandoPython/IMC.png"
+img_path = "CalculadoraImc/IMC.png"
 loaded_image = dpg.load_image(img_path)
 
 if loaded_image is None: # Fallback caso o script seja rodado de dentro da própria pasta
